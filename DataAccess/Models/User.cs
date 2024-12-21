@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace lithuanian_language_learning_tool.Models
+namespace DataAccess.Models
 {
     public enum UserRole
     {

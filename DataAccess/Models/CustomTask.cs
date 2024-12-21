@@ -1,8 +1,8 @@
-﻿using lithuanian_language_learning_tool.Helpers;
+﻿using DataAccess.Helpers;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace lithuanian_language_learning_tool.Models
+namespace DataAccess.Models
 {
     public class CustomTask
     {

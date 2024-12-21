@@ -5,15 +5,15 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using lithuanian_language_learning_tool.Data;
+using DataAccess.Data;
 
 #nullable disable
 
 namespace lithuanianlanguagelearningtool.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241110182540_Init")]
-    partial class Init
+    [Migration("20241113085118_RefactorTaskOptionAndCreateStoringForTasks")]
+    partial class RefactorTaskOptionAndCreateStoringForTasks
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,73 @@ namespace lithuanianlanguagelearningtool.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("lithuanian_language_learning_tool.Models.AnswerOption", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CustomTaskId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("OptionText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CustomTaskId");
+
+                    b.ToTable("AnswerOptions");
+                });
+
+            modelBuilder.Entity("lithuanian_language_learning_tool.Models.CustomTask", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CorrectAnswer")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Explanation")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Sentence")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TaskStatus")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("TaskType")
+                        .IsRequired()
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)");
+
+                    b.Property<string>("Topic")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CustomTasks");
+
+                    b.HasDiscriminator<string>("TaskType").HasValue("Custom");
+
+                    b.UseTphMappingStrategy();
+                });
 
             modelBuilder.Entity("lithuanian_language_learning_tool.Models.PracticeSession", b =>
                 {
@@ -110,7 +177,6 @@ namespace lithuanianlanguagelearningtool.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("ProfilePictureUrl")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Role")
@@ -164,6 +230,31 @@ namespace lithuanianlanguagelearningtool.Migrations
                     b.ToTable("UserAchievements");
                 });
 
+            modelBuilder.Entity("lithuanian_language_learning_tool.Models.PunctuationTask", b =>
+                {
+                    b.HasBaseType("lithuanian_language_learning_tool.Models.CustomTask");
+
+                    b.HasDiscriminator().HasValue("Punctuation");
+                });
+
+            modelBuilder.Entity("lithuanian_language_learning_tool.Models.SpellingTask", b =>
+                {
+                    b.HasBaseType("lithuanian_language_learning_tool.Models.CustomTask");
+
+                    b.HasDiscriminator().HasValue("Spelling");
+                });
+
+            modelBuilder.Entity("lithuanian_language_learning_tool.Models.AnswerOption", b =>
+                {
+                    b.HasOne("lithuanian_language_learning_tool.Models.CustomTask", "CustomTask")
+                        .WithMany("AnswerOptions")
+                        .HasForeignKey("CustomTaskId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CustomTask");
+                });
+
             modelBuilder.Entity("lithuanian_language_learning_tool.Models.PracticeSession", b =>
                 {
                     b.HasOne("lithuanian_language_learning_tool.Models.User", "User")
@@ -184,6 +275,11 @@ namespace lithuanianlanguagelearningtool.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("lithuanian_language_learning_tool.Models.CustomTask", b =>
+                {
+                    b.Navigation("AnswerOptions");
                 });
 
             modelBuilder.Entity("lithuanian_language_learning_tool.Models.User", b =>

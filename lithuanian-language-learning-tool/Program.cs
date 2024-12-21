@@ -1,17 +1,14 @@
 using lithuanian_language_learning_tool.Components;
-using lithuanian_language_learning_tool.Data;
-using lithuanian_language_learning_tool.Models;
-using lithuanian_language_learning_tool.Services;
+using DataAccess.Data;
+using DataAccess.Models;
+using DataAccess.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Server;
 using Microsoft.EntityFrameworkCore;
-using System;
-using lithuanian_language_learning_tool.Data;
-using Microsoft.Extensions.Configuration;
-using lithuanian_language_learning_tool.Models;
+using BusinessLogic.Services;
 using lithuanian_language_learning_tool.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);

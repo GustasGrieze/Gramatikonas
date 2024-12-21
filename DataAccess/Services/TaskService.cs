@@ -1,10 +1,10 @@
-﻿using lithuanian_language_learning_tool.Data;
-using lithuanian_language_learning_tool.Models;
+﻿using DataAccess.Data;
+using DataAccess.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 
 
-namespace lithuanian_language_learning_tool.Services
+namespace DataAccess.Services
 {
     public interface ITaskService<T> where T : CustomTask
     {

@@ -3,20 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using lithuanian_language_learning_tool.Data;
+using DataAccess.Data;
 
 #nullable disable
 
 namespace lithuanianlanguagelearningtool.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241113085118_RefactorTaskOptionAndCreateStoringForTasks")]
-    partial class RefactorTaskOptionAndCreateStoringForTasks
+    partial class AppDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -44,7 +41,7 @@ namespace lithuanianlanguagelearningtool.Migrations
 
                     b.HasIndex("CustomTaskId");
 
-                    b.ToTable("AnswerOptions");
+                    b.ToTable("AnswerOptions", (string)null);
                 });
 
             modelBuilder.Entity("lithuanian_language_learning_tool.Models.CustomTask", b =>
@@ -85,7 +82,7 @@ namespace lithuanianlanguagelearningtool.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("CustomTasks");
+                    b.ToTable("CustomTasks", (string)null);
 
                     b.HasDiscriminator<string>("TaskType").HasValue("Custom");
 
@@ -127,7 +124,7 @@ namespace lithuanianlanguagelearningtool.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("PracticeSessions");
+                    b.ToTable("PracticeSessions", (string)null);
                 });
 
             modelBuilder.Entity("lithuanian_language_learning_tool.Models.User", b =>
@@ -191,9 +188,12 @@ namespace lithuanianlanguagelearningtool.Migrations
                     b.Property<TimeSpan>("TotalStudyTime")
                         .HasColumnType("time");
 
+                    b.Property<int>("TotalTasksSeen")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("lithuanian_language_learning_tool.Models.UserAchievement", b =>
@@ -227,7 +227,7 @@ namespace lithuanianlanguagelearningtool.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("UserAchievements");
+                    b.ToTable("UserAchievements", (string)null);
                 });
 
             modelBuilder.Entity("lithuanian_language_learning_tool.Models.PunctuationTask", b =>

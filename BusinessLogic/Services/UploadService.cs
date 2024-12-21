@@ -1,9 +1,11 @@
-﻿using global::lithuanian_language_learning_tool.Exceptions;
-using lithuanian_language_learning_tool.Models;
+﻿using BusinessLogic.Exceptions;
+using DataAccess.Models;
 using System.Text.Json;
+using DataAccess.Services;
+using Microsoft.Extensions.Logging;
 
 
-namespace lithuanian_language_learning_tool.Services
+namespace BusinessLogic.Services
 {
     public interface IUploadService
     {

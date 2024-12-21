@@ -1,5 +1,5 @@
-using lithuanian_language_learning_tool.Models;
-namespace lithuanian_language_learning_tool.Helpers
+using DataAccess.Models;
+namespace DataAccess.Helpers
 {
     public static class CustomTaskExtensions
     {

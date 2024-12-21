@@ -1,5 +1,5 @@
-﻿using lithuanian_language_learning_tool.Models;
-using lithuanian_language_learning_tool.Services;
+﻿using DataAccess.Models;
+using DataAccess.Services;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.WebUtilities;

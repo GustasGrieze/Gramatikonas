@@ -1,7 +1,7 @@
-﻿using lithuanian_language_learning_tool.Models;
+﻿using DataAccess.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace lithuanian_language_learning_tool.Data
+namespace DataAccess.Data
 {
     public class AppDbContext : DbContext
     {

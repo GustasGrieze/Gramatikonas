@@ -1,4 +1,4 @@
-using lithuanian_language_learning_tool.Models;
+using DataAccess.Models;
 
 namespace lithuanian_language_learning_tool.Components.Pages
 {
