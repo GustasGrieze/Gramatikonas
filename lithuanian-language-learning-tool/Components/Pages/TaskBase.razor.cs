@@ -140,15 +140,6 @@ namespace lithuanian_language_learning_tool.Components.Pages
 
         }
 
-
-        protected void StartWithDefaultTasks()
-        {
-            GenerateDefaultTasks();
-            StartExercise();
-        }
-
-        protected abstract List<TTask> GenerateDefaultTasks();
-
         protected virtual async Task StartExercise(bool refetchNewTasks = false)
         {
             startTime = DateTime.Now;
