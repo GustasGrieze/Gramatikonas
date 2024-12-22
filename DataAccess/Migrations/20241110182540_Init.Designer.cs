@@ -25,7 +25,7 @@ namespace lithuanianlanguagelearningtool.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("lithuanian_language_learning_tool.Models.PracticeSession", b =>
+            modelBuilder.Entity("gramatikonas.Models.PracticeSession", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -63,7 +63,7 @@ namespace lithuanianlanguagelearningtool.Migrations
                     b.ToTable("PracticeSessions");
                 });
 
-            modelBuilder.Entity("lithuanian_language_learning_tool.Models.User", b =>
+            modelBuilder.Entity("gramatikonas.Models.User", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -130,7 +130,7 @@ namespace lithuanianlanguagelearningtool.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("lithuanian_language_learning_tool.Models.UserAchievement", b =>
+            modelBuilder.Entity("gramatikonas.Models.UserAchievement", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -164,9 +164,9 @@ namespace lithuanianlanguagelearningtool.Migrations
                     b.ToTable("UserAchievements");
                 });
 
-            modelBuilder.Entity("lithuanian_language_learning_tool.Models.PracticeSession", b =>
+            modelBuilder.Entity("gramatikonas.Models.PracticeSession", b =>
                 {
-                    b.HasOne("lithuanian_language_learning_tool.Models.User", "User")
+                    b.HasOne("gramatikonas.Models.User", "User")
                         .WithMany("PracticeSessions")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -175,9 +175,9 @@ namespace lithuanianlanguagelearningtool.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("lithuanian_language_learning_tool.Models.UserAchievement", b =>
+            modelBuilder.Entity("gramatikonas.Models.UserAchievement", b =>
                 {
-                    b.HasOne("lithuanian_language_learning_tool.Models.User", "User")
+                    b.HasOne("gramatikonas.Models.User", "User")
                         .WithMany("Achievements")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -186,7 +186,7 @@ namespace lithuanianlanguagelearningtool.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("lithuanian_language_learning_tool.Models.User", b =>
+            modelBuilder.Entity("gramatikonas.Models.User", b =>
                 {
                     b.Navigation("Achievements");
 
