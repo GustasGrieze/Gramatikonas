@@ -1,43 +1,43 @@
 [
     {
       "Sentence": "Sode auga obelys vyšnios, slyvos.",
-      "Options": [",", ".", ";", ":", "-", "!"],
+      "Options": [",", ".", ";", ":", " -", "!"],
       "CorrectAnswer": "Sode auga obelys, vyšnios, slyvos.",
       "Explanation": "Kableliais skiriame vienarūšes sakinio dalis, kai tarp jų nėra jungtuko."
     },
     {
       "Sentence": "Petras paėmė dalgį šapų gniužte nubraukė dulkes dzingtelėjo nykščio galu ašmenis.",
-      "Options": [",", ".", ";", ":", "-", "!"],
+      "Options": [",", ".", ";", ":", " -", "!"],
       "CorrectAnswer": "Petras paėmė dalgį šapų gniužte nubraukė dulkes dzingtelėjo nykščio galu ašmenis.",
       "Explanation": "Priklausomais žodžiais išplėstos vienarūšės sakinio dalys skiriamos kartu su tais priklausomais žodžiais viena nuo kitos."
     },
     {
       "Sentence": "Žiemą žaliuoja ir eglės. ir pušys.",
-      "Options": [",", ".", ";", ":", "-", "!"],
+      "Options": [",", ".", ";", ":", " -", "!"],
       "CorrectAnswer": "Žiemą žaliuoja ir eglės, ir pušys.",
       "Explanation": "Vienarūšės sakinio dalys viena nuo kitos skiriamos kableliais, kai prieš kiekvieną iš jų kartojamos tos pačios dalelytės 'ir'."
     },
     {
       "Sentence": "Geriau duoti nei prašyti.",
-      "Options": [",", ".", ";", ":", "-", "!"],
+      "Options": [",", ".", ";", ":", " -", "!"],
       "CorrectAnswer": "Geriau duoti, nei prašyti.",
       "Explanation": "Vienarūšės sakinio dalys skiriamos kableliais, kai yra sujungtos priešinamaisiais jungtukais 'nei'."
     },
     {
       "Sentence": "Ne už savo šeimą kovojo Mantas už savo tėvynę tautą ir jos laisvę.",
-      "Options": [",", ".", ";", ":", "-", "!"],
+      "Options": [",", ".", ";", ":", " -", "!"],
       "CorrectAnswer": "Ne už savo šeimą kovojo Mantas - už savo tėvynę, tautą ir jos laisvę.",
       "Explanation": "Vienarūšės sakinio dalys skiriamos brūkšniu, jei jos susietos priešpriešos santykiu."
     },
     {
       "Sentence": "Ir miškuose ir laukuose visur buvo daug sniego.",
-      "Options": [",", ".", ";", ":", "-", "!"],
+      "Options": [",", ".", ";", ":", " -", "!"],
       "CorrectAnswer": "Ir miškuose, ir laukuose - visur buvo daug sniego.",
       "Explanation": "Kai apibendrinamasis žodis eina po vienarūšių sakinio dalių, prieš jį rašomas brūkšnys."
     },
     {
       "Sentence": "Visa šeima tėvas motina ir dvi dukros grįžo vėlai namo.",
-      "Options": [",", ".", ";", ":", "-", "!"],
+      "Options": [",", ".", ";", ":", " -", "!"],
       "CorrectAnswer": "Visa šeima - tėvas, motina ir dvi dukros - grįžo vėlai namo.",
       "Explanation": "Kelios aiškinamosios vienarūšės sakinio dalys, neturinčios jungiamojo žodžio ir einančios po apibendrinamojo žodžio, yra išskiriamos dvitaškiu ir kableliais arba brūkšniais."
     }

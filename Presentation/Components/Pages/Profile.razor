@@ -39,12 +39,12 @@
                             </div>
 
                             <div class="border rounded-lg p-4">
-                                <h3 class="font-semibold mb-2">Progresas</h3>
+                                <h3 class="about">Progresas</h3>
                                     <Graph Width="450" X=@timeline Y=@scores />
                             </div>
 
                             <div class="border rounded-lg p-4">
-                                <h3 class="font-semibold mb-2">Profilio informacija</h3>
+                                <h3 class="about">Profilio informacija</h3>
                                 <p>Narys nuo: @_user.CreatedAt.ToString("MMMM dd, yyyy")</p>
                                 <p>Paskutinis prisijungimas: @_user.LastLoginAt.ToString("MMMM dd, yyyy")</p>
                                 <p>Iš viso mokytasi: @FormatStudyTime(_user.TotalStudyTime)</p>
@@ -74,7 +74,7 @@
                         @if (_user.IsAdmin)
                         {
                             <div class="mt-6 border rounded-lg p-4 bg-gray-50">
-                                <h3 class="font-semibold mb-2">Admin valdymas</h3>
+                                <h3 class="about">Admin valdymas</h3>
                                 <!-- Add admin-specific controls here -->
                                 <AdminTaskUpload />
                             </div>
