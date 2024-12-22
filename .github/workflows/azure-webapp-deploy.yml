@@ -35,7 +35,7 @@ jobs:
 
     # Deploy to Azure Web App
     - name: Deploy to Azure Web App
-      if: github.ref == 'refs/heads/main    
+      if: github.ref == "refs/heads/main" 
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'gramatikonas1'
