@@ -31,7 +31,7 @@ namespace gramatikonas.Components.Pages
                 currentTask.InitializeHighlights();
             }
         }
-        
+
 
         protected void ToggleHighlight(int spaceIndex)
         {

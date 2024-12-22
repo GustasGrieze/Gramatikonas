@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.Json;
-using System.Threading.Tasks;
-using BusinessLogic.Exceptions;
-using BusinessLogic.Services; 
+﻿using BusinessLogic.Exceptions;
+using BusinessLogic.Services;
 using DataAccess.Models;
 using DataAccess.Services;
 using Microsoft.Extensions.Logging;
 using Moq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace TestProject.Services
 {

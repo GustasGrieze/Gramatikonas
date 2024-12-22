@@ -134,7 +134,7 @@ namespace gramatikonas.Components.Pages
             showFlash = true;
             await Task.Delay(300);
             showFlash = false;
-            
+
             StateHasChanged();
 
 
@@ -146,7 +146,7 @@ namespace gramatikonas.Components.Pages
 
             if (refetchNewTasks)
             {
-                await LoadTasksFromDatabaseAsync();  
+                await LoadTasksFromDatabaseAsync();
             }
 
             score = 0;
@@ -162,11 +162,11 @@ namespace gramatikonas.Components.Pages
             {
                 currentTask = tasks[currentTaskIndex];
                 currentTask.UserText = currentTask.Sentence;
-                InitTasks();  
+                InitTasks();
             }
 
-            RestartTasks(); 
-            StateHasChanged();  
+            RestartTasks();
+            StateHasChanged();
         }
 
 
@@ -197,7 +197,7 @@ namespace gramatikonas.Components.Pages
             }
         }
 
-        protected async Task  TimerOut()
+        protected async Task TimerOut()
         {
             await EndExercise();
         }
@@ -218,7 +218,7 @@ namespace gramatikonas.Components.Pages
                 feedbackMessage = null;
                 showFeedback = false;
                 currentTask.TaskStatus = false;
-                
+
                 StateHasChanged();
 
             }
@@ -234,7 +234,7 @@ namespace gramatikonas.Components.Pages
             var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
             var currentUser = await UserService.GetCurrentUserAsync(authState);
 
-            if(currentUser != null &&!currentUser.IsGuest)
+            if (currentUser != null && !currentUser.IsGuest)
             {
                 await UpdateUserStats(currentUser);
                 PracticeSession practiceSession = new PracticeSession();
@@ -247,16 +247,16 @@ namespace gramatikonas.Components.Pages
                 practiceSession.UserId = currentUser.Id; // Assuming User has an Id property
                 await UserService.RecordPracticeSession(currentUser, practiceSession);
             }
-       
+
             StateHasChanged();
         }
         protected async Task UpdateUserStats(User currentUser)
         {
             if (currentUser != null)
             {
-               UpdateUserHighScore(currentUser);
-               currentUser.TotalLessonsCompleted += tasks.Count;
-               await UserService.UpdateUserAsync(currentUser);
+                UpdateUserHighScore(currentUser);
+                currentUser.TotalLessonsCompleted += tasks.Count;
+                await UserService.UpdateUserAsync(currentUser);
 
             }
         }
@@ -270,7 +270,7 @@ namespace gramatikonas.Components.Pages
                     currentUser.HighScore = score;
                 }
             }
-        } 
+        }
 
 
     }

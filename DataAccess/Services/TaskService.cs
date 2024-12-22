@@ -1,7 +1,6 @@
 ﻿using DataAccess.Data;
 using DataAccess.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 
 namespace DataAccess.Services
@@ -64,7 +63,7 @@ namespace DataAccess.Services
                                            .ToListAsync();
 
             if (allTaskIds.Count == 0)
-                return new List<T>(); 
+                return new List<T>();
 
             int fetchCount = Math.Min(count, allTaskIds.Count);
 
@@ -74,7 +73,7 @@ namespace DataAccess.Services
                                             .OfType<T>()
                                             .Where(ct => selectedIds.Contains(ct.Id))
                                             .Include(ct => ct.AnswerOptions) // Include related data if necessary
-                                            .AsNoTracking() 
+                                            .AsNoTracking()
                                             .ToListAsync();
 
             var orderedRandomTasks = selectedIds.Select(id => randomTasks.FirstOrDefault(t => t.Id == id))
@@ -100,7 +99,7 @@ namespace DataAccess.Services
                                                 .ToListAsync();
 
             if (!filteredTaskIds.Any())
-                return new List<T>(); 
+                return new List<T>();
 
             int fetchCount = Math.Min(count, filteredTaskIds.Count);
 
@@ -113,7 +112,7 @@ namespace DataAccess.Services
                                             .AsNoTracking()
                                             .ToListAsync();
 
-            
+
             var orderedRandomTasks = selectedIds.Select(id => randomTasks.FirstOrDefault(t => t.Id == id))
                                                 .Where(t => t != null)
                                                 .ToList();

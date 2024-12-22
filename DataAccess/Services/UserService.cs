@@ -159,11 +159,11 @@ namespace DataAccess.Services
 
         public async Task<List<User>> GetTopUsersByHighScoreAsync(int topCount)
         {
-          using var context = _contextFactory.CreateDbContext();
-          return await context.Users
-            .OrderByDescending(u => u.HighScore)
-            .Take(topCount)
-            .ToListAsync();
+            using var context = _contextFactory.CreateDbContext();
+            return await context.Users
+              .OrderByDescending(u => u.HighScore)
+              .Take(topCount)
+              .ToListAsync();
         }
 
         public async Task RecordPracticeSession(User user, PracticeSession session)

@@ -1,7 +1,5 @@
-﻿using System;
+﻿using DataAccess.Models;
 using System.Linq;
-using Xunit;
-using DataAccess.Models;
 
 namespace TestProject.Models
 {

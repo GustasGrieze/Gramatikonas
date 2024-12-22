@@ -1,13 +1,10 @@
 ﻿// File: SpellingTaskServiceTests.cs
 using DataAccess.Models;
 using DataAccess.Services;
-using Microsoft.Extensions.DependencyInjection;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TestProject.Database;
-using Xunit;
 
 namespace TestProject.Services
 {
