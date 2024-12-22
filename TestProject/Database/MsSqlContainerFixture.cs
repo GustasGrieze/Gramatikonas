@@ -1,6 +1,6 @@
-﻿using lithuanian_language_learning_tool.Data;
-using lithuanian_language_learning_tool.Models;
-using lithuanian_language_learning_tool.Services;
+﻿using DataAccess.Data;
+using DataAccess.Models;
+using DataAccess.Services;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Respawn;

@@ -1,6 +1,6 @@
 ﻿// File: PunctuationTaskServiceTests.cs
-using lithuanian_language_learning_tool.Models;
-using lithuanian_language_learning_tool.Services;
+using DataAccess.Models;
+using DataAccess.Services;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;

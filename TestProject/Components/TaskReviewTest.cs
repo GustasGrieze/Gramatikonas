@@ -1,5 +1,5 @@
-﻿using lithuanian_language_learning_tool.Components;
-using lithuanian_language_learning_tool.Models;
+﻿using gramatikonas.Components;
+using DataAccess.Models;
 
 
 namespace TestProject.Components

@@ -1,0 +1,33 @@
+[
+    {
+      "Sentence": "Atsitiko (ne/ laimė), o bėda.",
+      "Options": ["ne laimė", "nelaimė"],
+      "CorrectAnswer": "ne laimė",
+      "Explanation": "Dalelytė 'ne' rašoma atskirai su daiktavardžiais, kai neigia sakomąjį dalyką."
+    },
+    {
+      "Sentence": "(Vis/dėl/to) pamoka šiandien neįvyks.",
+      "Options": ["Vis dėlto", "Visdėlto", "Vis dėl to"],
+      "CorrectAnswer": "Vis dėlto",
+      "Explanation": "Dalelytė 'vis' rašoma atskirai, išskyrus atvejus, kai ji sutrumpėja kaip 'visgi' ar 'pernakt'."
+    },
+    {
+      "Sentence": "Beje, mes padarėme per/ne/lyg daug dalykų.",
+      "Options": ["pernelyg", "per ne lyg", "per nelyg", "perne lyg"],
+      "CorrectAnswer": "pernelyg",
+      "Explanation": "Dalelytė 'per' rašoma kartu, kai reiškia 'perdėtai', išskyrus tam tikras išimtis."
+    },
+    {
+      "Sentence": "Jis (ne/piktai) pažvelgė.",
+      "Options": ["nepiktai", "ne piktai"],
+      "CorrectAnswer": "nepiktai",
+      "Explanation": "Dalelytė 'ne' rašoma kartu su būdvardiniais prieveiksmiais, kai suteikia priešingą reikšmę."
+    },
+    {
+      "Sentence": "(Be/to), šiandien žada labai gerą orą.",
+      "Options": ["Beto", "Be to"],
+      "CorrectAnswer": "Be to",
+      "Explanation": "Dalelytė 'be' rašoma atskirai, kai eina su daiktavardžiais ar įvardžiais."
+    }
+  ]
+  

@@ -1,0 +1,33 @@
+[
+    {
+      "Sentence": "Savo pirm_j_ knygą perskaičiau būdama septynerių metų.",
+      "Options": ["ąją", "oji", "ą"],
+      "CorrectAnswer": "ąją",
+      "Explanation": "Įvardžiuotinio būdvardžio galūnė. Nosinės balsės vartojamos moteriškosios giminės galininko formose."
+    },
+    {
+      "Sentence": "Ank_čiau jo elgesys buvo geresnis.",
+      "Options": ["s", "š", "ks"],
+      "CorrectAnswer": "s",
+      "Explanation": "Rašome 's', nes tai atitinka žodžio šaknį, susijusią su 'ankstyvas'."
+    },
+    {
+      "Sentence": "Pakilkime auk_čiau.",
+      "Options": ["s", "š", "šč"],
+      "CorrectAnswer": "š",
+      "Explanation": "Rašome 'š', nes tai susiję su žodžiu 'aukštis'."
+    },
+    {
+      "Sentence": "Niekam ner_pėjo, ką aš slėpiau pastogėje.",
+      "Options": ["ū", "u", "o"],
+      "CorrectAnswer": "ū",
+      "Explanation": "Rašome 'ū', nes tai yra veiksmažodžio 'rūpestis' forma su nosine balsiu."
+    },
+    {
+      "Sentence": "Jis ein_s į parduotuvę.",
+      "Options": ["ą", "o", "a", "u"],
+      "CorrectAnswer": "ą",
+      "Explanation": "Rašome 'ą', nes tai dalyvio esamojo laiko galūnė vyr. giminės vienaskaitos naudininko formoje."
+    }
+  ]
+  

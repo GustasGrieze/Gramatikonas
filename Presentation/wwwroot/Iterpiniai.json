@@ -1,0 +1,33 @@
+[
+    {
+      "Sentence": "Danguolė beje rytoj išvažiuoja į jaunimo vasaros stovyklą.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Danguolė, beje, rytoj išvažiuoja į jaunimo vasaros stovyklą.",
+      "Explanation": "Įterpiniai skiriami kableliais iš abiejų pusių."
+    },
+    {
+      "Sentence": "Šiandien ko gero nelis, tad turėtume ruoštis keliauti toliau.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Šiandien, ko gero, nelis, tad turėtume ruoštis keliauti toliau.",
+      "Explanation": "Įterpiniai skiriami kableliais iš abiejų pusių."
+    },
+    {
+      "Sentence": "Stebėjau lizdą dar ilgai tik žinoma iš toli.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Stebėjau lizdą dar ilgai tik, žinoma, iš toli.",
+      "Explanation": "Įterpiniai skiriami kableliais iš abiejų pusių."
+    },
+    {
+      "Sentence": "Vaikystėje atsimenu man buvo įdomu tik tos pasakos fabula.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Vaikystėje, atsimenu, man buvo įdomu tik tos pasakos fabula.",
+      "Explanation": "Įterpiniai skiriami kableliais iš abiejų pusių."
+    },
+    {
+      "Sentence": "Rimas šiaip ar taip netrukus grįš iš ligoninės ir mes turėsime jam padėti pasivyti draugus.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Rimas, šiaip ar taip, netrukus grįš iš ligoninės ir mes turėsime jam padėti pasivyti draugus.",
+      "Explanation": "Įterpiniai skiriami kableliais iš abiejų pusių."
+    }
+  ]
+  

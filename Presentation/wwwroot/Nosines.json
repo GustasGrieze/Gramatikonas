@@ -1,0 +1,33 @@
+[
+    {
+      "Sentence": "Sūnau, paimk gal_stuvą ir pagal_sk peilį.",
+      "Options": ["a", "ą", "o"],
+      "CorrectAnswer": "ą",
+      "Explanation": "Rašoma nosinė 'ą', nes giminės žodžio šaknyje ji kaitaliojasi su mišriuoju dvigarsiu."
+    },
+    {
+      "Sentence": "Jis daugiau niekada nemėgino sk__stis.",
+      "Options": ["u", "ų", "o"],
+      "CorrectAnswer": "ų",
+      "Explanation": "Rašoma nosinė 'ų', nes žodyje ji kaitaliojasi su mišriuoju dvigarsiu 'un'."
+    },
+    {
+      "Sentence": "Prie namo sėdėjo nepaž_stami žmonės.",
+      "Options": ["i", "į", "a"],
+      "CorrectAnswer": "į",
+      "Explanation": "Rašoma nosinė 'į', nes žodyje ji kaitaliojasi su mišriuoju dvigarsiu 'in'."
+    },
+    {
+      "Sentence": "Savas problemas privalai spr_sti pats.",
+      "Options": ["e", "ę", "a"],
+      "CorrectAnswer": "ę",
+      "Explanation": "Rašoma nosinė 'ę', nes giminės žodžio šaknyje ji kaitaliojasi su mišriuoju dvigarsiu 'en'."
+    },
+    {
+      "Sentence": "Nepagailėk duonos k_snio išalkusiam žmogui.",
+      "Options": ["a", "ą", "o"],
+      "CorrectAnswer": "ą",
+      "Explanation": "Rašoma nosinė 'ą', nes giminės žodžio šaknyje ji kaitaliojasi su mišriuoju dvigarsiu 'an'."
+    }
+  ]
+  

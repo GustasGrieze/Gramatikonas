@@ -1,0 +1,33 @@
+[
+    {
+      "Sentence": "Nepyk jei anąsyk pasakiau negerą žodį.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Nepyk, jei anąsyk pasakiau negerą žodį.",
+      "Explanation": "Šalutinis sakinys, nes yra jungtukas 'jei'. Dedame kablelį prieš jungtuką."
+    },
+    {
+      "Sentence": "Sunkvežimio vairuotojas negalėjo suprasti kodėl aš atsidūriau griovyje tad papasakojau jam visą įvykį.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Sunkvežimio vairuotojas negalėjo suprasti, kodėl aš atsidūriau griovyje, tad papasakojau jam visą įvykį.",
+      "Explanation": "Šalutinis sakinys, nes yra jungtukas 'kodėl'. Dedame kablelį prieš jungtuką ir kai pabaigiame atsakyti į klausimą."
+    },
+    {
+      "Sentence": "Vakare kai rūkas nusileidžia ant pievų nueinu prie ežero ir nusimaudau.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Vakare, kai rūkas nusileidžia ant pievų, nueinu prie ežero ir nusimaudau.",
+      "Explanation": "Šalutinis sakinys, nes yra jungtukas 'kai'. Dedame kablelį prieš jungtuką."
+    },
+    {
+      "Sentence": "Gražūs šio kaimo vaizdai bet saulė plykstels dar negreit.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Gražūs šio kaimo vaizdai, bet saulė plykstels dar negreit.",
+      "Explanation": "Dedame kablelį prieš jungtuką 'bet'."
+    },
+    {
+      "Sentence": "Visą mėnesį sirgau todėl daugelį darbų turėjo daryti kiti.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Visą mėnesį sirgau, todėl daugelį darbų turėjo daryti kiti.",
+      "Explanation": "Dedame kablelį prieš jungtuką 'todėl'."
+    }
+  ]
+  

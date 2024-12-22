@@ -2,9 +2,9 @@
 
 using Bunit;
 using Bunit.TestDoubles; // For InputFileContent
-using lithuanian_language_learning_tool.Models;
-using lithuanian_language_learning_tool.Services;
-using lithuanian_language_learning_tool.Exceptions;
+using DataAccess.Models;
+using BusinessLogic.Services;
+using gramatikonas.Exceptions;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.Extensions.DependencyInjection;
 using Moq;
@@ -13,7 +13,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
-using lithuanian_language_learning_tool.Components; // Ensure semicolon
+using gramatikonas.Components; // Ensure semicolon
 
 namespace TestProject.Components
 {

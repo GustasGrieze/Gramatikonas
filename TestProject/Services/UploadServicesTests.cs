@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
-using lithuanian_language_learning_tool.Exceptions;
-using lithuanian_language_learning_tool.Models;
-using lithuanian_language_learning_tool.Services;
+using BusinessLogic.Exceptions;
+using BusinessLogic.Services; 
+using DataAccess.Models;
+using DataAccess.Services;
 using Microsoft.Extensions.Logging;
 using Moq;
 

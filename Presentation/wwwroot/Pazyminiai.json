@@ -1,0 +1,33 @@
+[
+    {
+      "Sentence": "Kai aplankau tėviškę bandau ieškoti tų vaikystės upeliūkščių švarių skaidrių nenusekusių.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Kai aplankau tėviškę bandau, ieškoti tų vaikystės upeliūkščių, švarių, skaidrių, nenusekusių.",
+      "Explanation": "Keli pažyminiai po pažymimojo žodžio išskiriami kableliais iš abiejų pusių."
+    },
+    {
+      "Sentence": "Paniurusiu dangumi plaukė debesys sunkūs švininiai o vėjas siautėjo tuščiuose laukuose.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Paniurusiu dangumi plaukė debesys, sunkūs, švininiai, o vėjas siautėjo tuščiuose laukuose.",
+      "Explanation": "Keli pažyminiai po pažymimojo žodžio išskiriami kableliais iš abiejų pusių."
+    },
+    {
+      "Sentence": "Tokią meilę nesavanaudišką pasiaukojančią iš tiesų didžiulė laimė sutikti savo gyvenime.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Tokią meilę, nesavanaudišką, pasiaukojančią, iš tiesų didžiulė laimė sutikti savo gyvenime.",
+      "Explanation": "Keli pažyminiai po pažymimojo žodžio išskiriami kableliais."
+    },
+    {
+      "Sentence": "Draugų praradusių sąžinę niekas nebegali sukrėsti.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Draugų, praradusių sąžinę, niekas nebegali sukrėsti.",
+      "Explanation": "Išplėstinis derinamasis pažyminys po pažymimojo žodžio išskiriamas kableliais iš abiejų pusių."
+    },
+    {
+      "Sentence": "Prie pastato esančio atokiau nuo gatvės būriavosi žmonės.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Prie pastato, esančio atokiau nuo gatvės, būriavosi žmonės.",
+      "Explanation": "Išplėstinis derinamasis pažyminys po pažymimojo žodžio išskiriamas kableliais iš abiejų pusių."
+    }
+  ]
+  
