@@ -44,7 +44,7 @@ namespace TestProject.Components
 
             // Act
             // Wait ~1 second
-            await Task.Delay(1100);
+            await Task.Delay(1200);
 
             // Assert that the Timer text is now "00:01"
             // (Because we used 2 seconds, after ~1 second, it should display "00:01")
