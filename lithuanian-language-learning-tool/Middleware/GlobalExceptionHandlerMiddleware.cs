@@ -27,7 +27,7 @@ namespace lithuanian_language_learning_tool.Middleware
             }
         }
 
-        public static Task HandleExceptionAsync(HttpContext context, Exception exception)
+        private static Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
             var logPath = Path.Combine("logs", "errors.log");
             Directory.CreateDirectory("logs");
