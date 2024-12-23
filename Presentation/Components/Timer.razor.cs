@@ -76,7 +76,8 @@ namespace gramatikonas.Components
 
         public void Dispose()
         {
-            _timer.Dispose();
+            if (_timer != null)
+                _timer.Dispose();
         }
     }
 }
