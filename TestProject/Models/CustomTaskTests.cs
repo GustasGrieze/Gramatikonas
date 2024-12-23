@@ -21,6 +21,7 @@ namespace TestProject.Models
             // Assert
             Assert.Equal("Original sentence.", task.UserText);
             Assert.False(task.TaskStatus);
+            Assert.True(task.TaskStatus);
         }
 
         [Theory]
