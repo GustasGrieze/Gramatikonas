@@ -76,7 +76,8 @@ namespace lithuanian_language_learning_tool.Components
 
         public void Dispose()
         {
-            _timer.Dispose();
+            if (_timer != null)
+                _timer.Dispose();
         }
     }
 }
