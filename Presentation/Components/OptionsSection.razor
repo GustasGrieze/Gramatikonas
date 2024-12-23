@@ -1,0 +1,22 @@
+﻿@using DataAccess.Models
+@typeparam TTask where TTask : CustomTask
+
+
+<div class="options">
+    @foreach (var option in Task.Options)
+    {
+        // added a check so that an option will be selected only 1 time, if selected the button returns null.
+        <button class="option" @onclick="IsSelected ? null : () => OnOptionSelected.InvokeAsync(option)">@option</button>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public TTask Task { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnOptionSelected { get; set; }
+
+    [Parameter]
+    public bool IsSelected { get; set; }
+}

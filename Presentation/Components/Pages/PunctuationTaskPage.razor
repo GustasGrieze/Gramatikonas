@@ -1,0 +1,105 @@
+﻿@page "/skyrybos/uzduotys"
+@using DataAccess.Models
+@inherits PunctuationTaskBase
+
+<h1>Skyrybos užduotys</h1>
+
+@if (!startExercise)
+{
+    @if (tasks == null || tasks.Count == 0)
+    {
+        <p>Nėra jokių užduočių. Prašome kreiptis į administratorių.</p>
+    }
+    else
+    {
+        <button class="next-button" @onclick="@(() => StartExercise(false))">Pradėti Užduotis</button>
+    }
+    
+}
+else
+{
+    @if (!showSummary)
+    {
+        @if (reviewMode)
+        {
+            <TaskReview Task="currentTask" OnBackToSummary="() => showSummary = true" />
+        }
+        else
+        {
+
+            <div class="score-label">
+                <h2>Taškai: @score</h2>
+            </div>
+
+            @if (showFlash)
+            {
+                <div class="flash-overlay @(_lastAnswerCorrect ? "correct-flash" : "incorrect-flash")"></div>
+            }
+
+            <Timer @ref="timer" SecondsToRun="20" TimerOut="TimerOut" />  
+
+            <div class="task-box" style="height: 300px;">
+                @if (tasks.Count > currentTaskIndex)
+                {
+                    var previousIndex = 0;
+                    var currentTask = tasks[currentTaskIndex];
+
+                    foreach (var highlight in currentTask.Highlights)
+                    {
+                        // Ensure SpaceIndex is valid
+                        if (highlight.SpaceIndex >= previousIndex && highlight.SpaceIndex <= currentTask.UserText.Length)
+                        {
+                            // Display text up to the space index
+                            <span @onclick="() => ToggleHighlight(highlight.SpaceIndex)" style="cursor:pointer;">
+                                @(currentTask.UserText.Substring(previousIndex, highlight.SpaceIndex - previousIndex))
+                            </span>
+
+                            // Display the space, highlighted if selected
+                            <span style="background-color:@(highlight.IsSelected ? "yellow" : "transparent"); cursor:pointer;"
+                                  @onclick="() => ToggleHighlight(highlight.SpaceIndex)">
+                                &nbsp;
+                            </span>
+
+                            // Update the previous index to after the space
+                            previousIndex = highlight.SpaceIndex + 1;
+                        }
+                    }
+
+                    // Display any remaining text after the last space
+                    if (previousIndex < currentTask.UserText.Length)
+                    {
+                        <span>@(currentTask.UserText.Substring(previousIndex))</span>
+                    }
+                }
+            </div>
+
+            <OptionsSection Task="currentTask" TTask="PunctuationTask" OnOptionSelected="HandleInsertPunctuation" IsSelected="showFeedback"/>
+            <button class="option" @onclick="@(() => HandleDeletePunctuation())">Ištrinti</button>
+
+
+
+            if (currentTask.TaskStatus)
+            {
+                <button class="next-button" @onclick="NextTask">Kita užduotis</button>
+
+            }
+            else
+            {
+                <button class="next-button" @onclick="() => CheckAnswer()">Pateikti</button>
+                <button class="next-button" @onclick="SkipTask">Praleisti</button>
+
+            }
+        }   
+    }
+    else
+    {
+        <SummaryPage CorrectAnswersCount="correctAnswersCount"
+                     TTask="PunctuationTask"
+                     Tasks="tasks"
+                     Score="score"
+                     OnTaskSelected="GoToTask"
+                     OnRestart="@(() => StartExercise(false))"
+                     OnRestartWithNewTasks="async () => await StartExercise(true)"/>
+    }
+}
+ 

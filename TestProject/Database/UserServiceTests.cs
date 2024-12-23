@@ -1,17 +1,13 @@
-﻿using System;
+﻿using DataAccess.Data;
+using DataAccess.Models;
+using DataAccess.Services;
+using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using lithuanian_language_learning_tool.Data;
-using lithuanian_language_learning_tool.Models;
-using lithuanian_language_learning_tool.Services;
-using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Respawn;
-using TestProject.Database;
-using Xunit;
 
 namespace TestProject.Database
 {

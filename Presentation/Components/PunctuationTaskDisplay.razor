@@ -1,0 +1,27 @@
+﻿<!-- TaskDisplayPunctuation.razor -->
+@using DataAccess.Models
+<div class="task-box" style="height: 300px;">
+    @if (PuncTask != null)
+    {
+        var previousIndex = 0;
+        foreach (var highlight in PuncTask.Highlights)
+        {
+            <span @onclick="() => OnToggleHighlight.InvokeAsync(highlight.SpaceIndex)" style="cursor:pointer;">
+                @(PuncTask.UserText.Substring(previousIndex, highlight.SpaceIndex - previousIndex))
+            </span>
+
+            <span style="background-color:@(highlight.IsSelected ? "yellow" : "transparent"); cursor:pointer;"
+                  @onclick="() => OnToggleHighlight.InvokeAsync(highlight.SpaceIndex)">
+                &nbsp;
+            </span>
+
+            previousIndex = highlight.SpaceIndex + 1;
+        }
+        <span>@(PuncTask.UserText.Substring(previousIndex))</span>
+    }
+</div>
+
+@code {
+    [Parameter] public PunctuationTask PuncTask { get; set; }
+    [Parameter] public EventCallback<int> OnToggleHighlight { get; set; }
+}

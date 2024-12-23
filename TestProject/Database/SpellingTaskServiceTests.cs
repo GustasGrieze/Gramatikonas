@@ -1,13 +1,10 @@
 ﻿// File: SpellingTaskServiceTests.cs
-using lithuanian_language_learning_tool.Models;
-using lithuanian_language_learning_tool.Services;
-using Microsoft.Extensions.DependencyInjection;
-using System;
+using DataAccess.Models;
+using DataAccess.Services;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TestProject.Database;
-using Xunit;
 
 namespace TestProject.Services
 {

@@ -1,4 +1,4 @@
-﻿using lithuanian_language_learning_tool.Middleware;
+﻿using gramatikonas.Middleware;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.IO;
@@ -34,10 +34,8 @@ namespace TestProject
                 "No errors.log file should be created when no exception is thrown.");
         }
 
-        /// <summary>
         /// A helper class that creates a unique temporary folder for logs
         /// and cleans it up automatically at the end of the test.
-        /// </summary>
         internal sealed class TempLogFolder : IDisposable
         {
             public string FolderPath { get; }

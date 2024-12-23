@@ -1,6 +1,6 @@
-using lithuanian_language_learning_tool.Models;
+using gramatikonas.Models;
 
-namespace lithuanian_language_learning_tool.Components.Pages
+namespace gramatikonas.Components.Pages
 {
     public partial class SpellingTaskBase : TaskBase<SpellingTask>
     {

@@ -1,0 +1,33 @@
+[
+    {
+      "Sentence": "Mikas Baltušis profesionalus krepšininkas niekam nekrinta į akis.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Mikas Baltušis, profesionalus krepšininkas, niekam nekrinta į akis.",
+      "Explanation": "Priedėlis po pažymimojo žodžio išskiriamas kableliais iš abiejų pusių."
+    },
+    {
+      "Sentence": "Mūsų mokiniai ypač dvyliktokai yra puikūs sportininkai.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Mūsų mokiniai, ypač dvyliktokai, yra puikūs sportininkai.",
+      "Explanation": "Priedėlis po pažymimojo žodžio išskiriamas kableliais iš abiejų pusių."
+    },
+    {
+      "Sentence": "Susitikau vaikystės draugę Austėją.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Susitikau vaikystės draugę Austėją.",
+      "Explanation": "Neskiriame priedėlio kableliais, nes eina prieš pažymimąjį žodį."
+    },
+    {
+      "Sentence": "Kedulių Katrė antroji duktė skiriasi iš visos šeimynos ne tik grožiu, bet ir būdu.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Kedulių Katrė, antroji duktė, skiriasi iš visos šeimynos ne tik grožiu, bet ir būdu.",
+      "Explanation": "Priedėlis po pažymimojo žodžio išskiriamas kableliais iš abiejų pusių."
+    },
+    {
+      "Sentence": "Petras vyriausias Ievos sūnus eina į pavėsinę.",
+      "Options": [",", ".", ";", ":", "!", "?"],
+      "CorrectAnswer": "Petras, vyriausias Ievos sūnus, eina į pavėsinę.",
+      "Explanation": "Priedėlis po pažymimojo žodžio išskiriamas kableliais iš abiejų pusių."
+    }
+  ]
+  

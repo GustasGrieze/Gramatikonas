@@ -1,7 +1,5 @@
-﻿using System;
+﻿using DataAccess.Models;
 using System.Linq;
-using Xunit;
-using lithuanian_language_learning_tool.Models;
 
 namespace TestProject.Models
 {

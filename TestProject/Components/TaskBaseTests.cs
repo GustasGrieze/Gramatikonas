@@ -1,12 +1,12 @@
-﻿using lithuanian_language_learning_tool.Components.Pages;
-using lithuanian_language_learning_tool.Models;
+﻿using gramatikonas.Components.Pages;
+using DataAccess.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AngleSharp.Svg.Dom;
 using Xunit;
 using Bunit;
-using lithuanian_language_learning_tool.Components;
-using lithuanian_language_learning_tool.Services;
+using DataAccess.Services;
+using BusinessLogic.Services;
 using Microsoft.AspNetCore.Components.Authorization;
 using Moq;
 

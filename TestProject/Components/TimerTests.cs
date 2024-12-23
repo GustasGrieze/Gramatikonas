@@ -1,5 +1,5 @@
 ﻿using Bunit;
-using lithuanian_language_learning_tool.Components;
+using gramatikonas.Components;
 using Microsoft.AspNetCore.Components;
 using System.Threading.Tasks;
 using Xunit;

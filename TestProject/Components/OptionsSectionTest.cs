@@ -1,5 +1,5 @@
-﻿using lithuanian_language_learning_tool.Components;
-using lithuanian_language_learning_tool.Models;
+﻿using DataAccess.Models;
+using gramatikonas.Components;
 using System.Collections.Generic;
 
 

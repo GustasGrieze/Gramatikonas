@@ -1,0 +1,63 @@
+﻿@page "/rasybos/uzduotys"
+@using DataAccess.Models
+@inherits SpellingTaskBase
+
+<h1>Rašybos užduotys</h1>
+
+@if (!startExercise)
+{
+    @if (tasks == null || tasks.Count == 0)
+    {
+        <p>Nėra jokių užduočių. Prašome kreiptis į administratorių.</p>
+    }
+    else
+    {
+        <button class="next-button" @onclick="@(() => StartExercise(false))">Pradėti Užduotis</button>
+    }
+
+}
+else
+{
+    @if (!showSummary)
+    {
+        
+        
+        @if (reviewMode)
+        {
+            <TaskReview Task="currentTask" OnBackToSummary="() => showSummary = true" />
+        }
+        else 
+        {
+            <div class="score-label">
+                <h2>Taškai: @score</h2>
+            </div>
+
+            @if (showFlash)
+            {
+                <div class="flash-overlay @(_lastAnswerCorrect ? "correct-flash" : "incorrect-flash")"></div>
+            }
+
+            <div class="task-container">
+                <Timer @ref="timer" SecondsToRun="5" TimerOut="TimerOut" />
+                <div class="task-box" style="height: 300px;">
+                    <textarea disabled @bind=currentTask.Sentence class="edit-textarea"></textarea>
+                </div>
+
+                <OptionsSection Task="currentTask" TTask="SpellingTask" OnOptionSelected="CheckAnswer" IsSelected="showFeedback" />
+            </div>
+        }
+
+        
+    }
+    else
+    {
+        <SummaryPage 
+            CorrectAnswersCount="correctAnswersCount"
+            TTask="SpellingTask"
+            Tasks="tasks" 
+            Score="score" 
+            OnTaskSelected="GoToTask"
+            OnRestart="@(() => StartExercise(false))"
+            OnRestartWithNewTasks="@(()=>StartExercise(true))"/>
+    }
+}

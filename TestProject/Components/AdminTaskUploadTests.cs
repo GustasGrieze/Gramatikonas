@@ -1,19 +1,12 @@
 ﻿// File: AdminTaskUploadTests.cs
 
-using Bunit;
-using Bunit.TestDoubles; // For InputFileContent
-using lithuanian_language_learning_tool.Models;
-using lithuanian_language_learning_tool.Services;
-using lithuanian_language_learning_tool.Exceptions;
+using BusinessLogic.Services;
+using gramatikonas.Components; // Ensure semicolon
+using gramatikonas.Exceptions;
 using Microsoft.AspNetCore.Components.Forms;
-using Microsoft.Extensions.DependencyInjection;
 using Moq;
 using System;
-using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
-using Xunit;
-using lithuanian_language_learning_tool.Components; // Ensure semicolon
 
 namespace TestProject.Components
 {

@@ -1,9 +1,9 @@
 ﻿using Bunit;
 using Xunit;
 using System.Linq;
-using lithuanian_language_learning_tool.Models;
+using DataAccess.Models;
 using Microsoft.AspNetCore.Components;
-using lithuanian_language_learning_tool.Components;
+using gramatikonas.Components;
 
 namespace TestProject.Components
 {

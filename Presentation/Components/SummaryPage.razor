@@ -1,0 +1,34 @@
+﻿@using DataAccess.Models
+@typeparam TTask where TTask : CustomTask
+<!-- SummaryPage.razor -->
+<h1 class="overview-title">Užduoties apžvalga</h1>
+<div class="container">
+    <div class="container-bright-long">
+        <div class="d-flex justify-content-between align-items-center">
+            <p class="correct-answers">
+                Teisingi atsakymai<br />
+                @CorrectAnswersCount / @Tasks.Count
+            </p>
+            <p class="correct-answers">Surinkta Taškų<br /> @Score</p>
+        </div>
+    </div>
+
+    @for (int i = 0; i < Tasks.Count; i++)
+    {
+        int index = i;
+        <button class="summary-button @(Tasks[i].TaskStatus ? "green" : "red")" @onclick="() => OnTaskSelected.InvokeAsync(index)">
+            @(i + 1)
+        </button>
+    }
+</div>
+<button class="next-button" @onclick="OnRestart">Bandyti dar kartą</button>
+<button class="next-button" @onclick=" OnRestartWithNewTasks"> Pradėti Naujas Užduotis</button>
+@code {
+    [Parameter] public List<TTask> Tasks { get; set; }
+    [Parameter] public List<bool> TaskStatus { get; set; }
+    [Parameter] public int Score { get; set; }
+    [Parameter] public int CorrectAnswersCount { get; set; }
+    [Parameter] public EventCallback<int> OnTaskSelected { get; set; }
+    [Parameter] public EventCallback OnRestart { get; set; }
+    [Parameter] public EventCallback OnRestartWithNewTasks { get; set; }
+}

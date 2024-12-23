@@ -2250,9 +2250,9 @@
             <line number="289" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Services.TaskService`1" filename="Services\TaskService.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Services.TaskService`1" filename="Services\TaskService.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name=".ctor" signature="(lithuanian_language_learning_tool.Data.AppDbContext)" line-rate="1" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(gramatikonas.Data.AppDbContext)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="24" hits="2" branch="False" />
                 <line number="25" hits="2" branch="False" />
@@ -2268,7 +2268,7 @@
             <line number="27" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Services.TaskService`1/&lt;AddTaskAsync&gt;d__2" filename="Services\TaskService.cs" line-rate="1" branch-rate="0.8332999999999999" complexity="6">
+        <class name="gramatikonas.Services.TaskService`1/&lt;AddTaskAsync&gt;d__2" filename="Services\TaskService.cs" line-rate="1" branch-rate="0.8332999999999999" complexity="6">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="0.8332999999999999" complexity="6">
               <lines>
@@ -2318,7 +2318,7 @@
             <line number="42" hits="6" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Services.TaskService`1/&lt;DeleteTaskAsync&gt;d__5" filename="Services\TaskService.cs" line-rate="1" branch-rate="1" complexity="2">
+        <class name="gramatikonas.Services.TaskService`1/&lt;DeleteTaskAsync&gt;d__5" filename="Services\TaskService.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
               <lines>
@@ -2356,7 +2356,7 @@
             <line number="101" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Services.TaskService`1/&lt;GetOptionsAsync&gt;d__6" filename="Services\TaskService.cs" line-rate="0" branch-rate="0" complexity="4">
+        <class name="gramatikonas.Services.TaskService`1/&lt;GetOptionsAsync&gt;d__6" filename="Services\TaskService.cs" line-rate="0" branch-rate="0" complexity="4">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -2384,7 +2384,7 @@
             <line number="106" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Services.TaskService`1/&lt;GetTaskAsync&gt;d__3" filename="Services\TaskService.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Services.TaskService`1/&lt;GetTaskAsync&gt;d__3" filename="Services\TaskService.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -2406,7 +2406,7 @@
             <line number="51" hits="6" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Services.TaskService`1/&lt;UpdateTaskAsync&gt;d__4" filename="Services\TaskService.cs" line-rate="1" branch-rate="1" complexity="8">
+        <class name="gramatikonas.Services.TaskService`1/&lt;UpdateTaskAsync&gt;d__4" filename="Services\TaskService.cs" line-rate="1" branch-rate="1" complexity="8">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="8">
               <lines>
@@ -2490,7 +2490,7 @@
             <line number="87" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Services.UserService" filename="Services\UserService.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="gramatikonas.Services.UserService" filename="Services\UserService.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="CreateGuestUser" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -2509,7 +2509,7 @@
                 <line number="94" hits="0" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.IDbContextFactory`1&lt;lithuanian_language_learning_tool.Data.AppDbContext&gt;)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.IDbContextFactory`1&lt;gramatikonas.Data.AppDbContext&gt;)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
                 <line number="24" hits="0" branch="False" />
                 <line number="25" hits="0" branch="False" />
@@ -2548,7 +2548,7 @@
             <line number="33" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Services.UserService/&lt;DemoteFromAdminAsync&gt;d__7" filename="Services\UserService.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="gramatikonas.Services.UserService/&lt;DemoteFromAdminAsync&gt;d__7" filename="Services\UserService.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -2582,7 +2582,7 @@
             <line number="130" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Services.UserService/&lt;GetCurrentUserAsync&gt;d__5" filename="Services\UserService.cs" line-rate="0" branch-rate="0" complexity="6">
+        <class name="gramatikonas.Services.UserService/&lt;GetCurrentUserAsync&gt;d__5" filename="Services\UserService.cs" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -2628,7 +2628,7 @@
             <line number="108" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Services.UserService/&lt;GetOrCreateUserFromGoogleAsync&gt;d__3" filename="Services\UserService.cs" line-rate="0" branch-rate="0" complexity="20">
+        <class name="gramatikonas.Services.UserService/&lt;GetOrCreateUserFromGoogleAsync&gt;d__3" filename="Services\UserService.cs" line-rate="0" branch-rate="0" complexity="20">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="20">
               <lines>
@@ -2780,7 +2780,7 @@
             <line number="78" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Services.UserService/&lt;PromoteToAdminAsync&gt;d__6" filename="Services\UserService.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="gramatikonas.Services.UserService/&lt;PromoteToAdminAsync&gt;d__6" filename="Services\UserService.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -2814,7 +2814,7 @@
             <line number="119" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Services.UserService/&lt;UpdateUserAsync&gt;d__8" filename="Services\UserService.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Services.UserService/&lt;UpdateUserAsync&gt;d__8" filename="Services\UserService.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -2834,7 +2834,7 @@
             <line number="137" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Models.CustomTask" filename="Models\CustomTask.cs" line-rate="0.5294" branch-rate="0" complexity="13">
+        <class name="gramatikonas.Models.CustomTask" filename="Models\CustomTask.cs" line-rate="0.5294" branch-rate="0" complexity="13">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -2930,7 +2930,7 @@
             <line number="43" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Models.AnswerOption" filename="Models\CustomTask.cs" line-rate="0.25" branch-rate="1" complexity="4">
+        <class name="gramatikonas.Models.AnswerOption" filename="Models\CustomTask.cs" line-rate="0.25" branch-rate="1" complexity="4">
           <methods>
             <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -2960,7 +2960,7 @@
             <line number="58" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Models.PunctuationTask" filename="Models\PuntuationTask.cs" line-rate="0.2777" branch-rate="0" complexity="8">
+        <class name="gramatikonas.Models.PunctuationTask" filename="Models\PuntuationTask.cs" line-rate="0.2777" branch-rate="0" complexity="8">
           <methods>
             <method name="get_Highlights" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -3042,7 +3042,7 @@
             <line number="13" hits="3" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Models.PunctuationTask/Highlight" filename="Models\PuntuationTask.cs" line-rate="0" branch-rate="1" complexity="4">
+        <class name="gramatikonas.Models.PunctuationTask/Highlight" filename="Models\PuntuationTask.cs" line-rate="0" branch-rate="1" complexity="4">
           <methods>
             <method name="get_SpaceIndex" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3080,7 +3080,7 @@
             <line number="38" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Models.SpellingTask" filename="Models\SpellingTask.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="gramatikonas.Models.SpellingTask" filename="Models\SpellingTask.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
             <method name="CalculateScore" signature="(System.Boolean,System.Int32)" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -3104,7 +3104,7 @@
             <line number="8" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Models.User" filename="Models\User.cs" line-rate="0" branch-rate="0" complexity="31">
+        <class name="gramatikonas.Models.User" filename="Models\User.cs" line-rate="0" branch-rate="0" complexity="31">
           <methods>
             <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3338,7 +3338,7 @@
             <line number="95" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Models.UserAchievement" filename="Models\User.cs" line-rate="0" branch-rate="1" complexity="7">
+        <class name="gramatikonas.Models.UserAchievement" filename="Models\User.cs" line-rate="0" branch-rate="1" complexity="7">
           <methods>
             <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3386,7 +3386,7 @@
             <line number="110" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Models.PracticeSession" filename="Models\User.cs" line-rate="0" branch-rate="1" complexity="9">
+        <class name="gramatikonas.Models.PracticeSession" filename="Models\User.cs" line-rate="0" branch-rate="1" complexity="9">
           <methods>
             <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3446,9 +3446,9 @@
             <line number="129" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Helpers.CustomTaskExtensions" filename="Helpers\CustomTaskExtensions.cs" line-rate="0.7" branch-rate="0.3333" complexity="6">
+        <class name="gramatikonas.Helpers.CustomTaskExtensions" filename="Helpers\CustomTaskExtensions.cs" line-rate="0.7" branch-rate="0.3333" complexity="6">
           <methods>
-            <method name="SetOptionsFromStrings" signature="(lithuanian_language_learning_tool.Models.CustomTask,System.Collections.Generic.List`1&lt;System.String&gt;)" line-rate="1" branch-rate="1" complexity="2">
+            <method name="SetOptionsFromStrings" signature="(gramatikonas.Models.CustomTask,System.Collections.Generic.List`1&lt;System.String&gt;)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
                 <line number="8" hits="2" branch="False" />
                 <line number="9" hits="2" branch="False" />
@@ -3463,7 +3463,7 @@
                 <line number="14" hits="2" branch="False" />
               </lines>
             </method>
-            <method name="GetOptionTexts" signature="(lithuanian_language_learning_tool.Models.CustomTask)" line-rate="0" branch-rate="0" complexity="4">
+            <method name="GetOptionTexts" signature="(gramatikonas.Models.CustomTask)" line-rate="0" branch-rate="0" complexity="4">
               <lines>
                 <line number="18" hits="0" branch="False" />
                 <line number="19" hits="0" branch="True" condition-coverage="0% (0/4)">
@@ -3498,7 +3498,7 @@
             <line number="20" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Data.AppDbContext" filename="Data\AppDbContext.cs" line-rate="1" branch-rate="1" complexity="9">
+        <class name="gramatikonas.Data.AppDbContext" filename="Data\AppDbContext.cs" line-rate="1" branch-rate="1" complexity="9">
           <methods>
             <method name="get_Users" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -3561,7 +3561,7 @@
                 <line number="49" hits="2" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;lithuanian_language_learning_tool.Data.AppDbContext&gt;)" line-rate="1" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;gramatikonas.Data.AppDbContext&gt;)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="8" hits="4" branch="False" />
                 <line number="9" hits="4" branch="False" />
@@ -3604,7 +3604,7 @@
             <line number="10" hits="4" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Timer" filename="Components\Timer.razor.cs" line-rate="0" branch-rate="0" complexity="9">
+        <class name="gramatikonas.Components.Timer" filename="Components\Timer.razor.cs" line-rate="0" branch-rate="0" complexity="9">
           <methods>
             <method name="get_SecondsToRun" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3678,7 +3678,7 @@
             <line number="17" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Timer/&lt;OnTimedEvent&gt;d__18" filename="Components\Timer.razor.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="gramatikonas.Components.Timer/&lt;OnTimedEvent&gt;d__18" filename="Components\Timer.razor.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -3716,7 +3716,7 @@
             <line number="57" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Timer/&lt;ResetTimer&gt;d__19" filename="Components\Timer.razor.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="gramatikonas.Components.Timer/&lt;ResetTimer&gt;d__19" filename="Components\Timer.razor.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -3750,7 +3750,7 @@
             <line number="67" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Timer/&lt;StartTimer&gt;d__17" filename="Components\Timer.razor.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Components.Timer/&lt;StartTimer&gt;d__17" filename="Components\Timer.razor.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3786,7 +3786,7 @@
             <line number="38" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Timer/&lt;StopTimer&gt;d__20" filename="Components\Timer.razor.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="gramatikonas.Components.Timer/&lt;StopTimer&gt;d__20" filename="Components\Timer.razor.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -3816,7 +3816,7 @@
             <line number="75" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Timer/&lt;OnInitializedAsync&gt;d__23" filename="Components\Timer.razor" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Components.Timer/&lt;OnInitializedAsync&gt;d__23" filename="Components\Timer.razor" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3832,7 +3832,7 @@
             <line number="14" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Login" filename="Components\Login.razor" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Components.Login" filename="Components\Login.razor" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="SignInWithGoogle" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3848,7 +3848,7 @@
             <line number="9" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.OptionsSection`1" filename="Components\OptionsSection.razor" line-rate="0" branch-rate="0" complexity="7">
+        <class name="gramatikonas.Components.OptionsSection`1" filename="Components\OptionsSection.razor" line-rate="0" branch-rate="0" complexity="7">
           <methods>
             <method name="BuildRenderTree" signature="(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -3898,7 +3898,7 @@
             <line number="20" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.OptionsSection`1/&lt;&gt;c__DisplayClass0_0" filename="Components\OptionsSection.razor" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Components.OptionsSection`1/&lt;&gt;c__DisplayClass0_0" filename="Components\OptionsSection.razor" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="&lt;BuildRenderTree&gt;b__0" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3910,7 +3910,7 @@
             <line number="8" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.PunctuationTaskDisplay" filename="Components\PunctuationTaskDisplay.razor" line-rate="0" branch-rate="0" complexity="8">
+        <class name="gramatikonas.Components.PunctuationTaskDisplay" filename="Components\PunctuationTaskDisplay.razor" line-rate="0" branch-rate="0" complexity="8">
           <methods>
             <method name="BuildRenderTree" signature="(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -3972,7 +3972,7 @@
             <line number="26" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.PunctuationTaskDisplay/&lt;&gt;c__DisplayClass0_0" filename="Components\PunctuationTaskDisplay.razor" line-rate="0" branch-rate="1" complexity="2">
+        <class name="gramatikonas.Components.PunctuationTaskDisplay/&lt;&gt;c__DisplayClass0_0" filename="Components\PunctuationTaskDisplay.razor" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="&lt;BuildRenderTree&gt;b__0" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3990,7 +3990,7 @@
             <line number="14" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.SummaryPage`1" filename="Components\SummaryPage.razor" line-rate="0" branch-rate="0" complexity="10">
+        <class name="gramatikonas.Components.SummaryPage`1" filename="Components\SummaryPage.razor" line-rate="0" branch-rate="0" complexity="10">
           <methods>
             <method name="BuildRenderTree" signature="(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -4060,7 +4060,7 @@
             <line number="32" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.SummaryPage`1/&lt;&gt;c__DisplayClass0_0" filename="Components\SummaryPage.razor" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Components.SummaryPage`1/&lt;&gt;c__DisplayClass0_0" filename="Components\SummaryPage.razor" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="&lt;BuildRenderTree&gt;b__0" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -4072,7 +4072,7 @@
             <line number="19" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.TaskReview" filename="Components\TaskReview.razor" line-rate="1" branch-rate="1" complexity="2">
+        <class name="gramatikonas.Components.TaskReview" filename="Components\TaskReview.razor" line-rate="1" branch-rate="1" complexity="2">
           <methods>
             <method name="get_Task" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -4090,7 +4090,7 @@
             <line number="18" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.TaskUploadPrompt" filename="Components\TaskUploadPrompt.razor" line-rate="0" branch-rate="0" complexity="6">
+        <class name="gramatikonas.Components.TaskUploadPrompt" filename="Components\TaskUploadPrompt.razor" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="BuildRenderTree" signature="(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -4142,7 +4142,7 @@
             <line number="15" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.TaskUploadPrompt/&lt;HandleFileSelected&gt;d__12" filename="Components\TaskUploadPrompt.razor" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Components.TaskUploadPrompt/&lt;HandleFileSelected&gt;d__12" filename="Components\TaskUploadPrompt.razor" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -4182,7 +4182,7 @@
             <line number="43" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.TaskUploadPrompt/&lt;StartWithDefaultTasks&gt;d__13" filename="Components\TaskUploadPrompt.razor" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Components.TaskUploadPrompt/&lt;StartWithDefaultTasks&gt;d__13" filename="Components\TaskUploadPrompt.razor" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -4198,7 +4198,7 @@
             <line number="48" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Layout.NavMenu" filename="Components\Layout\NavMenu.razor" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Components.Layout.NavMenu" filename="Components\Layout\NavMenu.razor" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="Logout" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -4214,7 +4214,7 @@
             <line number="43" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.PunctuationTaskBase" filename="Components\Pages\PunctuationTaskPage.razor.cs" line-rate="0" branch-rate="0" complexity="24">
+        <class name="gramatikonas.Components.Pages.PunctuationTaskBase" filename="Components\Pages\PunctuationTaskPage.razor.cs" line-rate="0" branch-rate="0" complexity="24">
           <methods>
             <method name="StartExercise" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -4498,7 +4498,7 @@
             <line number="131" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.PunctuationTaskBase/&lt;NextTask&gt;d__1" filename="Components\Pages\PunctuationTaskPage.razor.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="gramatikonas.Components.Pages.PunctuationTaskBase/&lt;NextTask&gt;d__1" filename="Components\Pages\PunctuationTaskPage.razor.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -4530,7 +4530,7 @@
             <line number="25" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.SpellingTaskBase" filename="Components\Pages\SpellingTaskPage.razor.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="gramatikonas.Components.Pages.SpellingTaskBase" filename="Components\Pages\SpellingTaskPage.razor.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="GenerateDefaultTasks" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -4602,7 +4602,7 @@
             <line number="41" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.TaskBase`1" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="0" complexity="20">
+        <class name="gramatikonas.Components.Pages.TaskBase`1" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="0" complexity="20">
           <methods>
             <method name="get_UserService" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -4850,7 +4850,7 @@
             <line number="45" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.TaskBase`1/&lt;CheckAnswer&gt;d__27" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="0" complexity="4">
+        <class name="gramatikonas.Components.Pages.TaskBase`1/&lt;CheckAnswer&gt;d__27" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="0" complexity="4">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -4912,7 +4912,7 @@
             <line number="103" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.TaskBase`1/&lt;EndExercise&gt;d__36" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Components.Pages.TaskBase`1/&lt;EndExercise&gt;d__36" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -4930,7 +4930,7 @@
             <line number="192" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.TaskBase`1/&lt;NextTask&gt;d__35" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="0" complexity="2">
+        <class name="gramatikonas.Components.Pages.TaskBase`1/&lt;NextTask&gt;d__35" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="0" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -4978,7 +4978,7 @@
             <line number="187" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.TaskBase`1/&lt;SkipTask&gt;d__34" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Components.Pages.TaskBase`1/&lt;SkipTask&gt;d__34" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -4994,7 +4994,7 @@
             <line number="167" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.TaskBase`1/&lt;TimerOut&gt;d__33" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Components.Pages.TaskBase`1/&lt;TimerOut&gt;d__33" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -5010,7 +5010,7 @@
             <line number="163" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.TaskBase`1/&lt;UpdateUserHighScore&gt;d__37" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="0" complexity="4">
+        <class name="gramatikonas.Components.Pages.TaskBase`1/&lt;UpdateUserHighScore&gt;d__37" filename="Components\Pages\TaskBase.razor.cs" line-rate="0" branch-rate="0" complexity="4">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -5060,7 +5060,7 @@
             <line number="206" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.Profile" filename="Components\Pages\Profile.razor" line-rate="0" branch-rate="0" complexity="16">
+        <class name="gramatikonas.Components.Pages.Profile" filename="Components\Pages\Profile.razor" line-rate="0" branch-rate="0" complexity="16">
           <methods>
             <method name="FormatStudyTime" signature="(System.TimeSpan)" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -5178,7 +5178,7 @@
             <line number="76" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.Profile/&lt;OnInitializedAsync&gt;d__2" filename="Components\Pages\Profile.razor" line-rate="0" branch-rate="1" complexity="1">
+        <class name="gramatikonas.Components.Pages.Profile/&lt;OnInitializedAsync&gt;d__2" filename="Components\Pages\Profile.razor" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -5196,7 +5196,7 @@
             <line number="97" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.PunctuationTaskPage" filename="Components\Pages\PunctuationTaskPage.razor" line-rate="0" branch-rate="0" complexity="27">
+        <class name="gramatikonas.Components.Pages.PunctuationTaskPage" filename="Components\Pages\PunctuationTaskPage.razor" line-rate="0" branch-rate="0" complexity="27">
           <methods>
             <method name="BuildRenderTree" signature="(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)" line-rate="0" branch-rate="0" complexity="24">
               <lines>
@@ -5394,7 +5394,7 @@
             <line number="77" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.PunctuationTaskPage/&lt;&gt;c__DisplayClass0_0" filename="Components\Pages\PunctuationTaskPage.razor" line-rate="0" branch-rate="1" complexity="2">
+        <class name="gramatikonas.Components.Pages.PunctuationTaskPage/&lt;&gt;c__DisplayClass0_0" filename="Components\Pages\PunctuationTaskPage.razor" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="&lt;BuildRenderTree&gt;b__3" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -5412,7 +5412,7 @@
             <line number="51" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="lithuanian_language_learning_tool.Components.Pages.SpellingTaskPage" filename="Components\Pages\SpellingTaskPage.razor" line-rate="0" branch-rate="0" complexity="12">
+        <class name="gramatikonas.Components.Pages.SpellingTaskPage" filename="Components\Pages\SpellingTaskPage.razor" line-rate="0" branch-rate="0" complexity="12">
           <methods>
             <method name="BuildRenderTree" signature="(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder)" line-rate="0" branch-rate="0" complexity="10">
               <lines>
